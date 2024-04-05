@@ -7,7 +7,11 @@ import (
 )
 
 func main() {
-	engine.Engine{
-		Scheduler:   &scheduler.Scheduler{},
-		WorkerCount: 100}.Run(worker.Request{})
+	//engine.Engine{
+	//	Scheduler:   &scheduler.Scheduler{},
+	//	WorkerCount: 100}.Run(worker.Request{})
+	engine.QueueEngine{
+		QueueScheduler: &scheduler.QueueScheduler{},
+		WorkerCount:    100,
+	}.Run(worker.Request{})
 }

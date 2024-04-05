@@ -1,9 +1,9 @@
 package main
 
 import (
-	"queue_scheduler/engine"
-	"queue_scheduler/scheduler"
-	"queue_scheduler/worker"
+	"simple_work_scheduler/engine"
+	"simple_work_scheduler/scheduler"
+	"simple_work_scheduler/worker"
 )
 
 func main() {

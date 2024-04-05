@@ -2,7 +2,7 @@ package engine
 
 import (
 	"fmt"
-	"queue_scheduler/worker"
+	"simple_work_scheduler/worker"
 )
 
 type Scheduler interface {

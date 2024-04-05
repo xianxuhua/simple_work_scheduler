@@ -1,6 +1,6 @@
 package scheduler
 
-import "queue_scheduler/worker"
+import "simple_work_scheduler/worker"
 
 type Scheduler struct {
 	workerChan chan worker.Request
